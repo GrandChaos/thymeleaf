@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Handling Form Submission</title>
+    <title>Hello!</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
     <body>
-        <h3>Здравствуйте</h3>
-        <p th:text="'Приветствую вас, ' + ${greeting.content}"/>
-        <button onclick="document.location='/greeting'">Вернуться к форме</button>
+        <h3 align="center">Здравствуйте</h3>
+        <p align="center" th:text="'Приветствую вас, ' + ${greeting.content}"></p>
+        <input type="button" value="Вернуться к форме" style="display: block; margin: 0 auto;" onclick="document.location='/greeting'">
     </body>
 </html>
